@@ -2,7 +2,7 @@ package com.coding.challenges.concurrency.rateLimiter;
 
 import java.time.Duration;
 
-public class RateLimiterMain {
+public class Main {
   public static void main(String[] args) throws InterruptedException {
     RateLimiter rateLimiter = new RateLimiter(5, Duration.ofMinutes(1));
 
